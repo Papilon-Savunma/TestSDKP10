@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TacirlerSDK'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'test sdk p10'
 
   s.homepage         = 'https://github.com/Papilon-Savunma/TestSDKP10'
@@ -11,8 +11,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.swift_versions = '5.0'
 
-  s.xcframeworks = 'TacirlerSDK'
-  s.vendored_xcframeworks = 'TacirlerSDK.xcframework'
+  s.vendored_frameworks = 'TacirlerSDK.xcframework'
 
   s.requires_arc = true
   
