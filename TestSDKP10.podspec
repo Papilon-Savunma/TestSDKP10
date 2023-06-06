@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name             = 'TacirlerSDK'
-  s.version          = '0.0.3'
+  s.name             = 'TestSDKP10'
+  s.version          = '0.0.4'
   s.summary          = 'test sdk p10'
 
   s.homepage         = 'https://github.com/Papilon-Savunma/TestSDKP10'
