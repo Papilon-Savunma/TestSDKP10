@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TestSDKP10'
-  s.version          = '0.0.5'
+  s.version          = '0.0.6'
   s.summary          = 'test sdk p10'
 
   s.homepage         = 'https://github.com/Papilon-Savunma/TestSDKP10'
@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
   s.swift_versions = '5.0'
 
   s.vendored_frameworks = 'TacirlerSDK.xcframework'
+  s.static_framework = true
 
   s.requires_arc = true
   
