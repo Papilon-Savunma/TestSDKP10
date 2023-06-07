@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TestSDKP10'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'test sdk p10'
 
   s.homepage         = 'https://github.com/Papilon-Savunma/TestSDKP10'
@@ -21,4 +21,5 @@ Pod::Spec.new do |s|
   s.dependency 'BulletinBoard'
   s.dependency 'JitsiMeetSDK', '~> 5.0.0'
   s.dependency 'Socket.IO-Client-Swift'
+  s.dependency 'Starscream'
 end
